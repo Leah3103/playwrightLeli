@@ -17,7 +17,7 @@ export class HomePage extends BasePage {
      * Navigate to the Playwright.dev homepage
      */
     async goto() {
-        await this.navigateTo('https://playwright.dev/');
+        await this.navigateTo('/');
     }
 
     /**
